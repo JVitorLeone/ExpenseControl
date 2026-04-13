@@ -1,0 +1,9 @@
+# Ignore .NET build artifacts for ExpenseControlApi
+ExpenseControlApi/bin/
+ExpenseControlApi/obj/
+
+# Ignore .NET debug settings and user-specific files for ExpenseControlApi
+ExpenseControlApi/Properties/launchSettings.json
+ExpenseControlApi/*.user
+ExpenseControlApi/*.suo
+ExpenseControlApi/*.userosscache
