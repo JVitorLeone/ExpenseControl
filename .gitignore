@@ -1,9 +1,69 @@
-# Ignore .NET build artifacts for ExpenseControlApi
+# ============================================
+# ExpenseControlApi (.NET) - Build Artifacts
+# ============================================
 ExpenseControlApi/bin/
 ExpenseControlApi/obj/
-
-# Ignore .NET debug settings and user-specific files for ExpenseControlApi
 ExpenseControlApi/Properties/launchSettings.json
 ExpenseControlApi/*.user
 ExpenseControlApi/*.suo
 ExpenseControlApi/*.userosscache
+ExpenseControlApi/.vs/
+ExpenseControlApi/.vscode/
+ExpenseControlApi/*.trx
+ExpenseControlApi/.code-workspace
+
+# ============================================
+# ExpenseControlWebApp (React) - Build Artifacts
+# ============================================
+ExpenseControlWebApp/node_modules/
+ExpenseControlWebApp/dist/
+ExpenseControlWebApp/build/
+ExpenseControlWebApp/.next/
+ExpenseControlWebApp/.env.local
+ExpenseControlWebApp/.env.*.local
+ExpenseControlWebApp/npm-debug.log
+ExpenseControlWebApp/npm-debug.log*
+ExpenseControlWebApp/yarn-error.log
+ExpenseControlWebApp/yarn-error.log*
+
+# ============================================
+# General / Shared Ignores
+# ============================================
+
+# OS Files
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Logs
+*.log
+lerna-debug.log*
+
+# Environment Files (local only - commit .env if needed for template)
+.env.local
+.env.*.local
+
+# Backup & Temporary Files
+*.bak
+*.tmp
+*.temp
+*~
+
+# OS-specific
+.AppleDouble
+.LSOverride
+ehthumbs.db
+$RECYCLE.BIN/
